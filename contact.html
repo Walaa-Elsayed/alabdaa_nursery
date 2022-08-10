@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alabdaa Nursery</title>
+
+  <!-- Bootstrap style Start Here -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="images/icon.ico">
+  <!-- Bootstrap Ends Here -->
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+
+  <!-- Header Start Here -->
+  <header class="w-100 h-100">
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="main-nav">
+      <div class="container w-100">
+        <a class="navbar-brand " href="index.html"><img src="images/logo2.png" alt="logo img" id="header_logo" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item ">
+              <a class="nav-link" href="contact.html"> اتصل بنا</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="register.html"> التسجيل</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">معرض الصور</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="activities.html">الأنشطة والفاعليات</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">نبذة عنا</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </nav>
+
+    <div class="h_title">
+      <h1> حضانة الإبداع</h1>
+      <h1> مرحبا بكم في حضانتكم</h1><br>
+      <button class="btn" id="btn_header"> لمعرفة المزيد </button>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/header_bg1.jpg" alt="header_img1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header_bg6.jpg" alt="header_img2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header_bg4.jpg" alt="header_img3">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header_bg7.jpg" alt="header_img4">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header_bg2.jpg" alt="header_img5">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+
+
+
+  </header>
+  <!-- Header Ends Here -->
+
+
+
+  <main class="w-100">
+
+
+
+    <!-- About Section Starts Here -->
+    <section class=" py-5 " id="contact_form">
+      <div class="container">
+        <div class="row w-100 py-5">
+          <div class="col-md-6 text-right ">
+            <h3> تواصل معنا </h3>
+
+            <!-- Contact form start here -->
+            <form class="py-5">
+              <form method="POST" action="">
+                <div class="form-row text-right">
+                  
+                  <div class="col mb-3">
+                    <label for="first_name">الاسم الاول</label>
+                    <input type="text" class="form-control" dir="rtl" id="first_name" placeholder="First name" value="ادخل اسمك الأول" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                 
+                    <div class="col mb-3">
+                        <label for="last_name">اسم العائلة</label>
+                        <input type="text" class="form-control" dir="rtl" id="last_name" placeholder="Last name" value="أدخل اسم العائلة" required>
+                      </div>
+                </div>
+
+                
+                <div class="form-row">
+                    <div class="col mb-3">
+                        <label for="email">الايميل </label>
+                        <input type="email" class="form-control" dir="rtl" id="email" placeholder="name@example.com" value="أدخل ايميلك" required>
+                      </div>
+                </div> 
+                
+                <div class="form-group">
+                    <label for="msg"> الرسالة النصية </label>
+                    <textarea class="form-control" id="msg" rows="3"></textarea>
+                </div>
+                
+                
+                <button class="btn btn-primary" type="submit" id="send"> إرسال</button>
+              </form>
+
+              <!-- Contact form ends here -->
+          </div>
+
+          <div class="col-md-6">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.415212130876!2d31.26121111512889!3d30.622253781675777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7e9629aaaf1ed%3A0xcee52186442c8ab4!2z2K3Yttin2YbYqSDYp9mE2KfYqNiv2KfYuQ!5e0!3m2!1sen!2suk!4v1617904321416!5m2!1sen!2suk" 
+            width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- About Section Ends Here-->
+
+   
+
+    <!-- Details section starts here -->
+    <section class="w-100 py-5 ">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-6 py-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">التسجيل </h4>
+                <p class="card-text">يتم قبول الطلاب من سن ثلاث سنوات حتى خمس سنوات </p>
+                <button class="more_btn"><span>لمعرفة المزيد</span> </button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 py-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">فريق العمل</h4>
+                <p class="card-text">نحن مؤسسة تعتمد على خبرات عالية الجودة فى ايصال العملية التعليمية </p>
+                <button class="more_btn"> لمعرفة المزيد </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Details section ends here -->
+
+
+
+  </main>
+
+  <footer>
+    <div class="container w-100 ">
+      <div class="row w-100 h-100" id="footer_row1">
+        <div class="col">
+          <!-- <img src="images/map.jpg" alt="map img" id="map_footer_img"> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.415212130876!2d31.26121111512889!3d30.622253781675777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7e9629aaaf1ed%3A0xcee52186442c8ab4!2z2K3Yttin2YbYqSDYp9mE2KfYqNiv2KfYuQ!5e0!3m2!1sen!2suk!4v1617904321416!5m2!1sen!2suk" 
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+        <div class="col-md-4 pt-5 text-white text-right">
+          <div id="time_table">
+            <h5> مواعيد العمل</h5>
+            <ul dir="rtl">
+              <li> السبت: من الساعة 9:00 صباحاً حتى 1:00 ظهراً</li>
+              <li> الأحد: من الساعة 9:00 صباحاً حتى 1:00 ظهراً</li>
+
+              <li> الأثنين: من الساعة 9:00 صباحاً حتى 1:00 ظهراً</li>
+              <li> الثلاثاء: من الساعة 9:00 صباحاً حتى 1:00 ظهراً</li>
+              <li> الأربعاء: من الساعة 9:00 صباحاً حتى 1:00 ظهراً</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-2 pt-5 text-white text-right">
+          <div id="time_table">
+            <h5> تواصل معنا </h5>
+            <p> حضانة الإبداع - ميت الحارون</p>
+            <p> زفتى - الغربية - مصر</p>
+            <p> +20 1005706162 </p>
+            <p> alebdaekg@gmail.com </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

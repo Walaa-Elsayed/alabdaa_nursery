@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Changa:wght@600&family=Markazi+Text:wght@700&family=Scheherazade:wght@700&display=swap');
+body{
+    margin: 0;
+}
+
+
+header {
+    margin: 0%;
+    background-image: url(../images/header_bg1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+/* a{
+   
+    text-decoration: none;
+    background-color: #efe7e7fa !important;
+    
+} */
+
+nav{
+    width: 100%;
+}
+
+#header_logo {
+
+    width: 100%;
+    height: auto;
+    max-height: 7rem;
+    max-width: 10rem;
+}
+
+.h_title {
+    position: absolute;
+    text-align: center;
+    color: black;
+    padding-top: 20%;
+    left: 55%;
+    z-index: 2;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #e6e1e1;
+    /* -webkit-text-stroke: .2px white; */
+
+    /* font-family: 'Changa', sans-serif; */
+    font-family: 'Scheherazade', serif;
+
+}
+
+h1 {
+    font-size: 5.2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.btn {
+
+    background-color: #389994;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 5px;
+    cursor: pointer;
+    font-family: 'Amiri', serif;
+
+}
+
+/* Style of navbar */
+.navbar {
+    height: 8rem;
+    z-index: 3;
+    opacity: .9;
+    border-color: #389994;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+}
+
+nav .nav-link {
+    color: teal !important;
+    z-index: 2;
+}
+
+
+/* Style of About section */
+
+p#about_pragraph {
+    padding-top: 2%;
+    font-size: 1.5rem;
+}
+
+/* Activities style */
+#activities_videos{
+
+    height: 60vh !important;
+}
+
+/* Style of age levels section */
+section#age_levels {
+
+    background-color: #389994;
+}
+
+#title_darkBackground {
+    color: wheat;
+}
+
+#card-img-top1 {
+    height: 50px !important;
+}
+
+/* style of elegant_students section */
+
+#elegant_students { 
+    background-color: #CF0D58;
+}
+
+#elegant_student_level1, #elegant_student_level2, #elegant_student_level3{
+    color: wheat;
+}
+
+
+/* footer style */
+
+footer{
+    width: 100%;
+   
+    background-color: #389994;
+}
+
+#map_footer_img{
+   width: auto;
+   max-width: 100%;
+   height: auto;
+}
+
+button.more_btn{
+padding:0.7em 1.7em;
+margin:0 0.3em 0.3em 0;
+border-color: wheat;
+border-radius:0 25px 0 25px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#CF0D58;
+box-shadow: 2px 2px 2px 2px white;
+text-align:center;
+position:relative;
+}
+
